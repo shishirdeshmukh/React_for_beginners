@@ -6,7 +6,7 @@ function Greet(props) {
       <h1>
         Hello {props.name} aka {props.hero}
       </h1>
-      {props.children}
+      <h2>{props.children}</h2>
     </>
   );
 }
